@@ -1,15 +1,58 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+# General
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
+*.log
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.venv
+.vscode
+.idea
+*.tmp
+*.bak
+*.swp
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+dist/
+build/
+coverage/
+*.pid
+*.seed
+*.pid.lock
+
+# Next.js
+.next/
+out/
+.next/cache/
+
+# Server specific
+server/node_modules/
+server/.env
+server/dist/
+
+# Client specific
+client/node_modules/
+client/.next/
+client/out/
+
+# Testing
+cypress/videos/
+cypress/screenshots/
+
+# Debug
+debug.log
+*.log
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
